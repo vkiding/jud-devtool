@@ -40,7 +40,7 @@
     "webpack": "^1.13.1",
     "jud-components": "^0.0.1",
     "jud-loader": "^0.0.1",
-    "jud-transformer": "^0.0.2"
+    "jud-transformer": "^0.0.3"
   },
   "bin": {
     "jud-devtool": "bin/jud-devtool.js"
