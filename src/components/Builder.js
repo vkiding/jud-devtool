@@ -41,7 +41,7 @@ exports.loader = function (source, targetPath = '') {
             module: {
                 loaders: [
                     {
-                        test: /\.ju((\?[^?]+)?$/,
+                        test: /\.ju(\?[^?]+)?$/,
                         loader: 'jud'
                     },
                     {
