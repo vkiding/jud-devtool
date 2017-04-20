@@ -1,6 +1,6 @@
 {
   "name": "jud-devtool",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "jud dev tool",
   "main": "index.js",
   "directories": {
