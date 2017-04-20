@@ -1,13 +1,4 @@
-.idea
-.project
-.svn
-.DS_Store
-.sass-cache
-*/.svn
-*/.DS_Store
-*/.idea
-
-lib
 node_modules
-tmp
-npm-debug.log
+demo
+coverage/
+.idea/
