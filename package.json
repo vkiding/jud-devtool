@@ -3,9 +3,6 @@
   "version": "0.0.4",
   "description": "jud dev tool",
   "main": "index.js",
-  "bin": {
-    "jud-devtool": "jud-devtool.js"
-  },
   "directories": {
     "test": "test"
   },
