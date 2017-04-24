@@ -115,9 +115,9 @@
         destroyJSRuntime();
         var logLevel = localStorage.getItem('logLevel');
         if (logLevel) {
-            message.params.env.WXEnvironment.logLevel = logLevel;
+            message.params.env.JUDEnvironment.logLevel = logLevel;
         }
-        document.getElementById('logLevel').value = message.params.env.WXEnvironment.logLevel;
+        document.getElementById('logLevel').value = message.params.env.JUDEnvironment.logLevel;
         message.sessionId=sessionId;
         initJSRuntime(message);
 

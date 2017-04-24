@@ -210,10 +210,10 @@ eventEmitter.on('JudDebug.initJSRuntime', function (message) {
 
     }
     importScripts(message.params.url);
-    _rewriteLog(message.params.env.WXEnvironment.logLevel);
+    _rewriteLog(message.params.env.JUDEnvironment.logLevel);
 });
 eventEmitter.on('JudDebug.changeLogLevel', function (message) {
-    self.WXEnvironment.logLevel = message.params;
+    self.JUDEnvironment.logLevel = message.params;
 });
 eventEmitter.on('Console.messageAdded', function (message) {
     console.error('[Native Error]', message.params.message.text);

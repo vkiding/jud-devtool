@@ -171,7 +171,7 @@ wsRouter.all('/debugProxy/native', function*(next) {
                     if (device) {
                         message.params.url = new MemoryFile('js-framework.js', message.params.source).getUrl();
                         if (device.deviceInfo.logLevel) {
-                            message.params.env.WXEnvironment.logLevel = device.deviceInfo.logLevel;
+                            message.params.env.JUDEnvironment.logLevel = device.deviceInfo.logLevel;
                         }
                         device.debuggerSession.postMessage(this, message);
                     }
