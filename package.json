@@ -1,6 +1,6 @@
 {
   "name": "jud-devtool",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "jud dev tool",
   "main": "index.js",
   "directories": {
@@ -35,9 +35,9 @@
     "opn": "^4.0.2",
     "parse-hosts": "^1.0.1",
     "webpack": "^1.13.1",
-    "jud-components": "^0.0.1",
-    "jud-loader": "^0.0.2",
-    "jud-transformer": "^0.0.3"
+    "jud-components": "latest",
+    "jud-loader": "latest",
+    "jud-transformer": "latest"
   },
   "bin": {
     "jud-devtool": "bin/jud-devtool.js"
